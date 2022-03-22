@@ -1,0 +1,36 @@
+.artist-list {
+  width: 400px;
+  margin: 30px;
+}
+
+li {
+  list-style-type: none;
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0px;
+}
+
+li:last-child {
+  border: none;
+}
+
+li button {
+  text-decoration: none;
+  color: #282c34;
+  border: none;
+  background-color: white;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 400px;
+}
+
+li button:hover {
+  font-size: 30px;
+  background: #282c34;
+  background-color: white;
+}

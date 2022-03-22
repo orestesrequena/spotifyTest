@@ -1,0 +1,8 @@
+main {
+  display: flex;
+  align-content: flex-start;
+}
+section {
+  flex-grow: 2;
+  align-self: center;
+}
