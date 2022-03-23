@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Spotify App
 
 Get access to a list of genres and navigate inside a list of artists to have access to more information.
